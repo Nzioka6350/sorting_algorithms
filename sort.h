@@ -26,5 +26,9 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 int get_max(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void heapify(int *array, int end, int start, size_t size);
+void swap(int *a, int *b);
+
 
 #endif/* _SORT_H_ */
