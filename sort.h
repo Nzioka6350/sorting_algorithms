@@ -31,6 +31,9 @@ void heapify(int *array, int end, int start, size_t size);
 void swap(int *a, int *b);
 void _merge_sort(int *array, int *temp, size_t size);
 void merge_sort(int *array, size_t size);
+void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
+void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
+void cocktail_sort_list(listint_t **list);
 
 
 #endif/* _SORT_H_ */
